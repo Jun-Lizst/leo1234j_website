@@ -66,6 +66,11 @@ menu:
       pre: <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
       url: /#about
       weight: 8
+    - identifier: contact
+      name: Contact
+      pre: <i class="sidebar-button-icon fas fa-lg fa-at" aria-hidden="true"></i>
+      url: /contact
+      weight: 9     
   misc:
     - identifier: github
       name: GitHub
@@ -82,16 +87,11 @@ menu:
       pre: <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
       url: https://www.linkedin.com/in/jun-liszt-li-32916aa3/
       weight: 3
-    - identifier: email
-      name: Email
-      pre: <i class="sidebar-button-icon fab fa-lg fa-paper-plane-top" aria-hidden="true"></i>
-      url: poppingjun7@gmail.com
-      weight: 4
     - identifier: rss
       name: RSS
       pre: <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
       url: /index.xml
-      weight: 5
+      weight: 4
 params:
   autoThumbnailImage: yes
   clearReading: yes
